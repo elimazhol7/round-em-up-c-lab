@@ -1,0 +1,10 @@
+Elima	Zholdubaeva
+CSC122
+
+Activity: Round 'em Up!
+Level: 1.5
+
+Description: 
+This program calculates **basic statistics** — average, standard deviation, maximum, and minimum 
+for a set of numbers stored in a user-specified file.  
+The data file should contain a **space-separated list of numeric values.
