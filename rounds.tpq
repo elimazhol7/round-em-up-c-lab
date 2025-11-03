@@ -1,4 +1,13 @@
-1.
-2.
-3.
-4.
+1.No, the spacing between numbers generally does not matter when reading data from
+a file if especially if I'm using standard input operators (like >>). The operator automatically 
+skips whitespace, including spaces, tabs, and newlines, between numbers. 
+2. No, the integers do not have to be in any specific order for most calculations, like finding the sum,
+average, maximum, or minimum. If a program requires a sorted list for later processing,
+then the order matters, but for basic calculations, order is irrelevant.
+3. No, the program handles both integers and floating-point numbers. Using double or 
+float as the data type is a good choice, it allows for decimal numbers. 
+4.No, it is not possible under normal circumstances. The program reads numbers one at a time and only 
+keeps a few variables in memory (count, mean, M2, min, max). It does not store
+the entire dataset in memory, so memory usage is constant and independent of file size.
+5. I need to adjust the largest and smallest values to the first number read from the file, so
+my comparisons are valid.
