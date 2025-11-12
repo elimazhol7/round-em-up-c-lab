@@ -1,15 +1,15 @@
 #ifndef STATNUMBS_H
 #define STATNUMBS_H
 
-#include <iostream>
 #include <fstream>
+#include <iostream>
 #include <cmath>
-#include <string>
-#include <limits>
 
-using namespace std;
-
-ifstream openFile();
-void processFile(ifstream &file);
+/**
+ * Processes numeric data from a file stream to compute:
+ * count, min, max, mean, variance, and standard deviation.
+ * Uses Welford’s algorithm for numerical stability.
+ */
+void processFile(std::ifstream &file);
 
 #endif

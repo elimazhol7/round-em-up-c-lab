@@ -1,16 +1,16 @@
-// main.cpp
+#include <iostream>
+#include <fstream>
+#include "filehelper.h"
 #include "statnumbs.h"
 
 int main() {
-    cout << "\n\tWelcome to the Number Statistics Program!!!\n\n";
+    std::cout << "\n\tWelcome to the Number Statistics Program!!!\n\n";
 
-    ifstream file = openFile();
-    cout << "\nCalculating...\n";
+    std::ifstream file = openFile();
+    std::cout << "\nCalculating...\n";
 
     processFile(file);
 
-    cout << "\nThank you for using the NSP!!\n";
-    cout << "Endeavor to have a undulating day!\n";
-
+    std::cout << "\nThank you for using the Number Statistics Program!!\n";
     return 0;
 }
